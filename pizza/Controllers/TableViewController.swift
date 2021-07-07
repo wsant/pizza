@@ -51,11 +51,14 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? PizzaCellController else {
             return UITableViewCell()
         }
+        let pizza = pizzaList[indexPath.row]
         
+        cell.setup(pizza: pizza)
         return cell
+        
         }
     private func configureTableView() {
-        pizzaTable.register(UINib(nibName: "cell", bundle: Bundle.main), forCellReuseIdentifier: "cell")
+        pizzaTable.register(UINib(nibName: "PizzaCell", bundle: Bundle.main), forCellReuseIdentifier: "cell")
         pizzaTable.delegate = self
         pizzaTable.dataSource = self
     }

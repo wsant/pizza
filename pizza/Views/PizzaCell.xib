@@ -62,7 +62,9 @@
                     <constraint firstItem="lBb-8E-hBi" firstAttribute="leading" secondItem="HvQ-Dg-s3o" secondAttribute="trailing" constant="7.5" id="tIj-N3-aIP"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" red="0.097975142299999998" green="0.097995929420000003" blue="0.097970627249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
+                <outlet property="cell" destination="E7Z-pj-ono" id="sa5-5u-Swt"/>
                 <outlet property="namePizzaLabel" destination="LdJ-tf-oJw" id="xBN-Fx-Wrz"/>
                 <outlet property="pizzaImageView" destination="HvQ-Dg-s3o" id="XIF-0a-gkW"/>
                 <outlet property="priceLabel" destination="Wxf-G9-fVw" id="ksf-y8-1Af"/>
