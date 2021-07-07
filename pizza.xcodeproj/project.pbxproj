@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D53DC7C26929C9700107D2D /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D53DC7B26929C9700107D2D /* Pizza.swift */; };
+		3D53DC8026929E3500107D2D /* PizzaTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D53DC7F26929E3500107D2D /* PizzaTable.storyboard */; };
+		3D997A8A2694E85E00DA0107 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D997A892694E85E00DA0107 /* TableViewController.swift */; };
+		3D997A8E2694FBCC00DA0107 /* PizzaSize.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D997A8D2694FBCC00DA0107 /* PizzaSize.storyboard */; };
+		3D997A952694FE6500DA0107 /* EndBuy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D997A942694FE6500DA0107 /* EndBuy.storyboard */; };
+		3DB4D49C2691425C00322476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D49B2691425C00322476 /* AppDelegate.swift */; };
+		3DB4D49E2691425C00322476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D49D2691425C00322476 /* SceneDelegate.swift */; };
+		3DB4D4A02691425C00322476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4D49F2691425C00322476 /* ViewController.swift */; };
+		3DB4D4A32691425C00322476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4D4A12691425C00322476 /* Main.storyboard */; };
+		3DB4D4A52691425C00322476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4D4A42691425C00322476 /* Assets.xcassets */; };
+		3DB4D4A82691425C00322476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4D4A62691425C00322476 /* LaunchScreen.storyboard */; };
+		3DE41B5326950341007B3366 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4726950341007B3366 /* Roboto-Black.ttf */; };
+		3DE41B5426950341007B3366 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4826950341007B3366 /* Roboto-LightItalic.ttf */; };
+		3DE41B5526950341007B3366 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4926950341007B3366 /* Roboto-ThinItalic.ttf */; };
+		3DE41B5626950341007B3366 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4A26950341007B3366 /* Roboto-Light.ttf */; };
+		3DE41B5726950341007B3366 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4B26950341007B3366 /* Roboto-Bold.ttf */; };
+		3DE41B5826950341007B3366 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4C26950341007B3366 /* Roboto-MediumItalic.ttf */; };
+		3DE41B5926950341007B3366 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4D26950341007B3366 /* Roboto-Medium.ttf */; };
+		3DE41B5A26950341007B3366 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4E26950341007B3366 /* Roboto-Regular.ttf */; };
+		3DE41B5B26950341007B3366 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B4F26950341007B3366 /* Roboto-BoldItalic.ttf */; };
+		3DE41B5C26950341007B3366 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B5026950341007B3366 /* Roboto-Italic.ttf */; };
+		3DE41B5D26950341007B3366 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B5126950341007B3366 /* Roboto-BlackItalic.ttf */; };
+		3DE41B5E26950341007B3366 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B5226950341007B3366 /* Roboto-Thin.ttf */; };
+		3DE41B65269538DB007B3366 /* PizzaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE41B64269538DB007B3366 /* PizzaCell.xib */; };
+		3DE41B6826953B01007B3366 /* PizzaCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE41B6726953B01007B3366 /* PizzaCellController.swift */; };
+		50BE2CE351852F3C4104B70A /* Pods_pizza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A882324740A7C76FC2AB9A5 /* Pods_pizza.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07C5520A1C50B36E4D63105E /* Pods-pizza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pizza.debug.xcconfig"; path = "Target Support Files/Pods-pizza/Pods-pizza.debug.xcconfig"; sourceTree = "<group>"; };
+		374ED86375D3D80DD65FF5C2 /* Pods-pizza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pizza.release.xcconfig"; path = "Target Support Files/Pods-pizza/Pods-pizza.release.xcconfig"; sourceTree = "<group>"; };
+		3D53DC7B26929C9700107D2D /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		3D53DC7F26929E3500107D2D /* PizzaTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PizzaTable.storyboard; sourceTree = "<group>"; };
+		3D997A892694E85E00DA0107 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3D997A8D2694FBCC00DA0107 /* PizzaSize.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PizzaSize.storyboard; sourceTree = "<group>"; };
+		3D997A942694FE6500DA0107 /* EndBuy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EndBuy.storyboard; sourceTree = "<group>"; };
+		3DB4D4982691425C00322476 /* pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB4D49B2691425C00322476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DB4D49D2691425C00322476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DB4D49F2691425C00322476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DB4D4A22691425C00322476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB4D4A42691425C00322476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB4D4A72691425C00322476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DB4D4A92691425C00322476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE41B4726950341007B3366 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		3DE41B4826950341007B3366 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		3DE41B4926950341007B3366 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3DE41B4A26950341007B3366 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		3DE41B4B26950341007B3366 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3DE41B4C26950341007B3366 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3DE41B4D26950341007B3366 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		3DE41B4E26950341007B3366 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3DE41B4F26950341007B3366 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3DE41B5026950341007B3366 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		3DE41B5126950341007B3366 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3DE41B5226950341007B3366 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		3DE41B64269538DB007B3366 /* PizzaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaCell.xib; sourceTree = "<group>"; };
+		3DE41B6726953B01007B3366 /* PizzaCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCellController.swift; sourceTree = "<group>"; };
+		6A882324740A7C76FC2AB9A5 /* Pods_pizza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pizza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB4D4952691425C00322476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BE2CE351852F3C4104B70A /* Pods_pizza.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D53DC7926929C4500107D2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D53DC7B26929C9700107D2D /* Pizza.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D53DC7A26929C4F00107D2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4D4A12691425C00322476 /* Main.storyboard */,
+				3D53DC7F26929E3500107D2D /* PizzaTable.storyboard */,
+				3D997A8D2694FBCC00DA0107 /* PizzaSize.storyboard */,
+				3D997A942694FE6500DA0107 /* EndBuy.storyboard */,
+				3DE41B64269538DB007B3366 /* PizzaCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DB4D48F2691425C00322476 = {
+			isa = PBXGroup;
+			children = (
+				3DB4D49A2691425C00322476 /* pizza */,
+				3DB4D4992691425C00322476 /* Products */,
+				6A6D4D8EA814A3F7F7DFFE14 /* Pods */,
+				ED4B0278E6950FECE90177C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB4D4992691425C00322476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4D4982691425C00322476 /* pizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB4D49A2691425C00322476 /* pizza */ = {
+			isa = PBXGroup;
+			children = (
+				3DE41B462695030D007B3366 /* Fonts */,
+				3DB4D49B2691425C00322476 /* AppDelegate.swift */,
+				3D53DC7926929C4500107D2D /* Models */,
+				3D53DC7A26929C4F00107D2D /* Views */,
+				3DB4D4BC26914EA500322476 /* Controllers */,
+				3DB4D49D2691425C00322476 /* SceneDelegate.swift */,
+				3DB4D4A42691425C00322476 /* Assets.xcassets */,
+				3DB4D4A62691425C00322476 /* LaunchScreen.storyboard */,
+				3DB4D4A92691425C00322476 /* Info.plist */,
+			);
+			path = pizza;
+			sourceTree = "<group>";
+		};
+		3DB4D4BC26914EA500322476 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4D49F2691425C00322476 /* ViewController.swift */,
+				3D997A892694E85E00DA0107 /* TableViewController.swift */,
+				3DE41B6726953B01007B3366 /* PizzaCellController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3DE41B462695030D007B3366 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3DE41B4726950341007B3366 /* Roboto-Black.ttf */,
+				3DE41B5126950341007B3366 /* Roboto-BlackItalic.ttf */,
+				3DE41B4B26950341007B3366 /* Roboto-Bold.ttf */,
+				3DE41B4F26950341007B3366 /* Roboto-BoldItalic.ttf */,
+				3DE41B5026950341007B3366 /* Roboto-Italic.ttf */,
+				3DE41B4A26950341007B3366 /* Roboto-Light.ttf */,
+				3DE41B4826950341007B3366 /* Roboto-LightItalic.ttf */,
+				3DE41B4D26950341007B3366 /* Roboto-Medium.ttf */,
+				3DE41B4C26950341007B3366 /* Roboto-MediumItalic.ttf */,
+				3DE41B4E26950341007B3366 /* Roboto-Regular.ttf */,
+				3DE41B5226950341007B3366 /* Roboto-Thin.ttf */,
+				3DE41B4926950341007B3366 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6A6D4D8EA814A3F7F7DFFE14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07C5520A1C50B36E4D63105E /* Pods-pizza.debug.xcconfig */,
+				374ED86375D3D80DD65FF5C2 /* Pods-pizza.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED4B0278E6950FECE90177C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A882324740A7C76FC2AB9A5 /* Pods_pizza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB4D4972691425C00322476 /* pizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB4D4AC2691425C00322476 /* Build configuration list for PBXNativeTarget "pizza" */;
+			buildPhases = (
+				73C778A474B8A903EFF52BB0 /* [CP] Check Pods Manifest.lock */,
+				3DB4D4942691425C00322476 /* Sources */,
+				3DB4D4952691425C00322476 /* Frameworks */,
+				3DB4D4962691425C00322476 /* Resources */,
+				6B9128652938E95211DF67FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pizza;
+			productName = pizza;
+			productReference = 3DB4D4982691425C00322476 /* pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB4D4902691425C00322476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3DB4D4972691425C00322476 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3DB4D4932691425C00322476 /* Build configuration list for PBXProject "pizza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB4D48F2691425C00322476;
+			productRefGroup = 3DB4D4992691425C00322476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB4D4972691425C00322476 /* pizza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB4D4962691425C00322476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE41B5926950341007B3366 /* Roboto-Medium.ttf in Resources */,
+				3DB4D4A82691425C00322476 /* LaunchScreen.storyboard in Resources */,
+				3DE41B5D26950341007B3366 /* Roboto-BlackItalic.ttf in Resources */,
+				3D997A952694FE6500DA0107 /* EndBuy.storyboard in Resources */,
+				3DE41B5B26950341007B3366 /* Roboto-BoldItalic.ttf in Resources */,
+				3DE41B5626950341007B3366 /* Roboto-Light.ttf in Resources */,
+				3DE41B5C26950341007B3366 /* Roboto-Italic.ttf in Resources */,
+				3DE41B5426950341007B3366 /* Roboto-LightItalic.ttf in Resources */,
+				3DE41B5E26950341007B3366 /* Roboto-Thin.ttf in Resources */,
+				3DE41B5826950341007B3366 /* Roboto-MediumItalic.ttf in Resources */,
+				3DE41B5726950341007B3366 /* Roboto-Bold.ttf in Resources */,
+				3D997A8E2694FBCC00DA0107 /* PizzaSize.storyboard in Resources */,
+				3DE41B5A26950341007B3366 /* Roboto-Regular.ttf in Resources */,
+				3D53DC8026929E3500107D2D /* PizzaTable.storyboard in Resources */,
+				3DE41B5326950341007B3366 /* Roboto-Black.ttf in Resources */,
+				3DE41B5526950341007B3366 /* Roboto-ThinItalic.ttf in Resources */,
+				3DB4D4A52691425C00322476 /* Assets.xcassets in Resources */,
+				3DB4D4A32691425C00322476 /* Main.storyboard in Resources */,
+				3DE41B65269538DB007B3366 /* PizzaCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B9128652938E95211DF67FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pizza/Pods-pizza-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pizza/Pods-pizza-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pizza/Pods-pizza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73C778A474B8A903EFF52BB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pizza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB4D4942691425C00322476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB4D4A02691425C00322476 /* ViewController.swift in Sources */,
+				3DB4D49C2691425C00322476 /* AppDelegate.swift in Sources */,
+				3DE41B6826953B01007B3366 /* PizzaCellController.swift in Sources */,
+				3D53DC7C26929C9700107D2D /* Pizza.swift in Sources */,
+				3D997A8A2694E85E00DA0107 /* TableViewController.swift in Sources */,
+				3DB4D49E2691425C00322476 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DB4D4A12691425C00322476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB4D4A22691425C00322476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB4D4A62691425C00322476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB4D4A72691425C00322476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB4D4AA2691425C00322476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DB4D4AB2691425C00322476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB4D4AD2691425C00322476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C5520A1C50B36E4D63105E /* Pods-pizza.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F79LF8RM24;
+				INFOPLIST_FILE = pizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsantos.pizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB4D4AE2691425C00322476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374ED86375D3D80DD65FF5C2 /* Pods-pizza.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F79LF8RM24;
+				INFOPLIST_FILE = pizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsantos.pizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB4D4932691425C00322476 /* Build configuration list for PBXProject "pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB4D4AA2691425C00322476 /* Debug */,
+				3DB4D4AB2691425C00322476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB4D4AC2691425C00322476 /* Build configuration list for PBXNativeTarget "pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB4D4AD2691425C00322476 /* Debug */,
+				3DB4D4AE2691425C00322476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB4D4902691425C00322476 /* Project object */;
+}

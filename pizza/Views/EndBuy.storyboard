@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0mQ-ft-P0S">
+            <objects>
+                <viewController id="SXa-LF-of8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5dq-Ob-qaU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compra efetuada com sucesso!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="J14-jC-uSg">
+                                <rect key="frame" x="94.5" y="152" width="186" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="Nex-VH-AXL"/>
+                                    <constraint firstAttribute="width" constant="186" id="ejr-6e-bAD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 11" translatesAutoresizingMaskIntoConstraints="NO" id="Skn-mh-WEo">
+                                <rect key="frame" x="94" y="267" width="187" height="186"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sn6-cs-kii">
+                                <rect key="frame" x="56" y="503" width="263" height="40"/>
+                                <color key="backgroundColor" red="0.51714962720000002" green="0.80449312930000005" blue="0.29970443250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="k9T-x3-42Q"/>
+                                    <constraint firstAttribute="width" constant="263" id="wpy-ls-zuq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <state key="normal" title="voltar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wx7-aI-TMr"/>
+                        <color key="backgroundColor" red="0.09274692088" green="0.092766962950000004" blue="0.092742525039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Skn-mh-WEo" firstAttribute="leading" secondItem="Wx7-aI-TMr" secondAttribute="leading" constant="94" id="0LX-E7-CKp"/>
+                            <constraint firstAttribute="trailing" secondItem="Sn6-cs-kii" secondAttribute="trailing" constant="56" id="2vM-Bm-fl0"/>
+                            <constraint firstItem="J14-jC-uSg" firstAttribute="leading" secondItem="Wx7-aI-TMr" secondAttribute="leading" constant="94.5" id="3Cx-2z-lKL"/>
+                            <constraint firstItem="J14-jC-uSg" firstAttribute="top" secondItem="Wx7-aI-TMr" secondAttribute="top" constant="152" id="960-mG-yHI"/>
+                            <constraint firstItem="Wx7-aI-TMr" firstAttribute="trailing" secondItem="J14-jC-uSg" secondAttribute="trailing" constant="94.5" id="IfW-Lz-2gP"/>
+                            <constraint firstItem="Sn6-cs-kii" firstAttribute="top" secondItem="Skn-mh-WEo" secondAttribute="bottom" constant="50" id="K97-Ya-dol"/>
+                            <constraint firstItem="Sn6-cs-kii" firstAttribute="leading" secondItem="Wx7-aI-TMr" secondAttribute="leading" constant="56" id="LdB-g9-IdR"/>
+                            <constraint firstItem="Wx7-aI-TMr" firstAttribute="trailing" secondItem="Skn-mh-WEo" secondAttribute="trailing" constant="94" id="WLS-dX-UCD"/>
+                            <constraint firstItem="Skn-mh-WEo" firstAttribute="top" secondItem="J14-jC-uSg" secondAttribute="bottom" constant="59" id="Z0b-AO-lQ6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="viD-gZ-ytJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-246" y="79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group 11" width="186" height="186"/>
+    </resources>
+</document>
